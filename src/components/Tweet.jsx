@@ -6,7 +6,7 @@ import Actions from "./Actions";
 
 function Tweet(props) {
   // console.log("tweet:", props) 
-  const {tweet: {user: image, name, handle}, timestamp, message} = props
+  const {tweet: {user: image, user, handle}, timestamp, message} = props
 
   return (
     <div className="tweet">
